@@ -1,0 +1,562 @@
+@font-face {
+  font-family: 'yizitfont';
+  src:  url('./fonts/yizitfont.eot?oasauf');
+  src:  url('./fonts/yizitfont.eot?oasauf#iefix') format('embedded-opentype'),
+    url('./fonts/yizitfont.ttf?oasauf') format('truetype'),
+    url('./fonts/yizitfont.woff?oasauf') format('woff'),
+    url('./fonts/yizitfont.svg?oasauf#yizitfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="yizit"], [class*=" yizit"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'yizitfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.yizitdzkb:before {
+  content: "\e9a1";
+}
+.yizitgys:before {
+  content: "\e9a2";
+}
+.yizitqxyy .path1:before {
+  content: "\e9a3";
+  color: rgb(0, 0, 0);
+}
+.yizitqxyy .path2:before {
+  content: "\e9a4";
+  margin-left: -1em;
+  color: rgb(3, 0, 0);
+}
+.yizitqxyy .path3:before {
+  content: "\e9a5";
+  margin-left: -1em;
+  color: rgb(3, 0, 0);
+}
+.yizitcx02:before {
+  content: "\e913";
+}
+.yizitqx02:before {
+  content: "\e99e";
+}
+.yizitgw:before {
+  content: "\e9a0";
+}
+.yizitgc:before {
+  content: "\e999";
+}
+.yizitgcgl:before {
+  content: "\e99a";
+}
+.yizitgzzx:before {
+  content: "\e99b";
+}
+.yizitjs:before {
+  content: "\e99c";
+}
+.yizitpxd:before {
+  content: "\e99d";
+}
+.yizityg:before {
+  content: "\e99f";
+}
+.yizitword01:before {
+  content: "\e900";
+}
+.yizitexl:before {
+  content: "\e901";
+}
+.yizitexl01:before {
+  content: "\e902";
+}
+.yizitPPT01:before {
+  content: "\e903";
+}
+.yizitPQC:before {
+  content: "\e904";
+}
+.yizitSNhcj .path1:before {
+  content: "\e905";
+  color: rgb(3, 0, 0);
+}
+.yizitSNhcj .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(3, 0, 0);
+}
+.yizitSNhcj .path3:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(3, 0, 0);
+}
+.yizitSNhcj .path4:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(3, 0, 0);
+}
+.yizitSNhcj .path5:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.yizitSNhcj .path6:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.yizitbf:before {
+  content: "\e90b";
+}
+.yizitbcp:before {
+  content: "\e90c";
+}
+.yizitbcp02:before {
+  content: "\e90d";
+}
+.yizitbz01:before {
+  content: "\e90e";
+}
+.yizitbz:before {
+  content: "\e90f";
+}
+.yizitbz02:before {
+  content: "\e910";
+}
+.yizitbc:before {
+  content: "\e911";
+}
+.yizitbg:before {
+  content: "\e912";
+}
+.yizitbj:before {
+  content: "\e914";
+}
+.yizitbj01:before {
+  content: "\e915";
+}
+.yizitbj02:before {
+  content: "\e916";
+}
+.yizitbq:before {
+  content: "\e917";
+}
+.yizitcgdd:before {
+  content: "\e918";
+}
+.yizitcgddcx:before {
+  content: "\e919";
+}
+.yizitcj:before {
+  content: "\e91a";
+}
+.yizitck:before {
+  content: "\e91b";
+}
+.yizitcz:before {
+  content: "\e91c";
+}
+.yizitcz02:before {
+  content: "\e91d";
+}
+.yizitcz03:before {
+  content: "\e91e";
+}
+.yizitcb02:before {
+  content: "\e91f";
+}
+.yizitcx:before {
+  content: "\e920";
+}
+.yizitcy:before {
+  content: "\e921";
+}
+.yizitch:before {
+  content: "\e922";
+}
+.yizitdy:before {
+  content: "\e923";
+}
+.yizitdycx:before {
+  content: "\e924";
+}
+.yizitdq:before {
+  content: "\e925";
+}
+.yizitdh:before {
+  content: "\e926";
+}
+.yizitdn:before {
+  content: "\e927";
+}
+.yizitdn02:before {
+  content: "\e928";
+}
+.yizitewm:before {
+  content: "\e929";
+}
+.yizitfs:before {
+  content: "\e92a";
+}
+.yizitfh:before {
+  content: "\e92b";
+}
+.yizitfk:before {
+  content: "\e92c";
+}
+.yizitfx:before {
+  content: "\e92d";
+}
+.yizitfx02:before {
+  content: "\e92e";
+}
+.yizitfwq:before {
+  content: "\e92f";
+}
+.yizitfz:before {
+  content: "\e930";
+}
+.yizitgd:before {
+  content: "\e931";
+}
+.yizitgwb:before {
+  content: "\e932";
+}
+.yizitgb:before {
+  content: "\e933";
+}
+.yizitgbtc:before {
+  content: "\e934";
+}
+.yizitgy:before {
+  content: "\e935";
+}
+.yizithf:before {
+  content: "\e936";
+}
+.yizithb:before {
+  content: "\e937";
+}
+.yizitjsq:before {
+  content: "\e938";
+}
+.yizitj01:before {
+  content: "\e939";
+}
+.yizitj02:before {
+  content: "\e93a";
+}
+.yizitjz:before {
+  content: "\e93b";
+}
+.yizitjs02:before {
+  content: "\e93c";
+}
+.yizitkg:before {
+  content: "\e93d";
+}
+.yizitkq:before {
+  content: "\e93e";
+}
+.yizitkf:before {
+  content: "\e93f";
+}
+.yizitkc:before {
+  content: "\e940";
+}
+.yizitkccx:before {
+  content: "\e941";
+}
+.yizitkcgl .path1:before {
+  content: "\e942";
+  color: rgb(3, 0, 0);
+}
+.yizitkcgl .path2:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(3, 0, 0);
+}
+.yizitkcgl .path3:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(3, 0, 0);
+}
+.yizitkcgl .path4:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(3, 0, 0);
+}
+.yizitkcgl .path5:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(3, 0, 0);
+}
+.yizitkcgl .path6:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(3, 0, 0);
+}
+.yizitkcgl .path7:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.yizitlj:before {
+  content: "\e949";
+}
+.yizitlb01:before {
+  content: "\e94a";
+}
+.yizitlb02:before {
+  content: "\e94b";
+}
+.yizitmm:before {
+  content: "\e94c";
+}
+.yizitmb:before {
+  content: "\e94d";
+}
+.yizitqt:before {
+  content: "\e94e";
+}
+.yizitqx:before {
+  content: "\e94f";
+}
+.yizitqz:before {
+  content: "\e950";
+}
+.yizitqz02:before {
+  content: "\e951";
+}
+.yizitqp:before {
+  content: "\e952";
+}
+.yizitqp02:before {
+  content: "\e953";
+}
+.yizitqxdm:before {
+  content: "\e954";
+}
+.yizitrysj:before {
+  content: "\e955";
+}
+.yizitrytj:before {
+  content: "\e956";
+}
+.yizitrl:before {
+  content: "\e957";
+}
+.yizitrz:before {
+  content: "\e958";
+}
+.yizitsm:before {
+  content: "\e959";
+}
+.yizitsc:before {
+  content: "\e95a";
+}
+.yizits:before {
+  content: "\e95b";
+}
+.yizitsc-01:before {
+  content: "\e95c";
+}
+.yizitsz:before {
+  content: "\e95d";
+}
+.yizitsgz:before {
+  content: "\e95e";
+}
+.yizitsj:before {
+  content: "\e95f";
+}
+.yizitsjrq:before {
+  content: "\e960";
+}
+.yizitsj01:before {
+  content: "\e961";
+}
+.yizitsj02:before {
+  content: "\e962";
+}
+.yizitsx:before {
+  content: "\e963";
+}
+.yizittj:before {
+  content: "\e964";
+}
+.yizittjqz:before {
+  content: "\e965";
+}
+.yizittb:before {
+  content: "\e966";
+}
+.yizittc:before {
+  content: "\e967";
+}
+.yizittcqz:before {
+  content: "\e968";
+}
+.yizitth:before {
+  content: "\e969";
+}
+.yizitwc:before {
+  content: "\e96a";
+}
+.yizitwx:before {
+  content: "\e96b";
+}
+.yizitwx01:before {
+  content: "\e96c";
+}
+.yizitwx02:before {
+  content: "\e96d";
+}
+.yizitwd:before {
+  content: "\e96e";
+}
+.yizitwjj:before {
+  content: "\e96f";
+}
+.yizitwl:before {
+  content: "\e970";
+}
+.yizitwlcx:before {
+  content: "\e971";
+}
+.yizitx:before {
+  content: "\e972";
+}
+.yizitxx:before {
+  content: "\e973";
+}
+.yizitxz:before {
+  content: "\e974";
+}
+.yizitxx（ld）2:before {
+  content: "\e975";
+}
+.yizitxx01:before {
+  content: "\e976";
+}
+.yizitxsdd:before {
+  content: "\e977";
+}
+.yizitxz01:before {
+  content: "\e978";
+}
+.yizitxw:before {
+  content: "\e979";
+}
+.yizitxx02:before {
+  content: "\e97a";
+}
+.yizityzm:before {
+  content: "\e97b";
+}
+.yizityq:before {
+  content: "\e97c";
+}
+.yizityw:before {
+  content: "\e97d";
+}
+.yizityewm:before {
+  content: "\e97e";
+}
+.yizitywm:before {
+  content: "\e97f";
+}
+.yizitylgx:before {
+  content: "\e980";
+}
+.yizityk:before {
+  content: "\e981";
+}
+.yizityysj:before {
+  content: "\e982";
+}
+.yizityh:before {
+  content: "\e983";
+}
+.yizityh02:before {
+  content: "\e984";
+}
+.yizityhgl:before {
+  content: "\e985";
+}
+.yizityhgl-f02 .path1:before {
+  content: "\e986";
+  color: rgb(0, 0, 0);
+}
+.yizityhgl-f02 .path2:before {
+  content: "\e987";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.yizityhgl-f02 .path3:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(3, 0, 0);
+}
+.yizityhgl-f02 .path4:before {
+  content: "\e989";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.yizityhgl-f02 .path5:before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.yizityj:before {
+  content: "\e98b";
+}
+.yizity:before {
+  content: "\e98c";
+}
+.yizityj01:before {
+  content: "\e98d";
+}
+.yizityl:before {
+  content: "\e98e";
+}
+.yizitycl:before {
+  content: "\e98f";
+}
+.yizitycl02:before {
+  content: "\e990";
+}
+.yizitydy:before {
+  content: "\e991";
+}
+.yizitzd:before {
+  content: "\e992";
+}
+.yizitzd01:before {
+  content: "\e993";
+}
+.yizitzy:before {
+  content: "\e994";
+}
+.yizitzt:before {
+  content: "\e995";
+}
+.yizitzz:before {
+  content: "\e996";
+}
+.yizitzxh:before {
+  content: "\e997";
+}
+.yizitz:before {
+  content: "\e998";
+}
