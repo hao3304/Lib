@@ -4,7 +4,6 @@
 
 <template>
     <Menu ref="sideMenu" :active-name="active" :open-names="openName" :theme="menuTheme" width="auto" @on-select="changeMenu">
-
         <template v-for="item in menuList">
             <MenuItem v-if="item.children.length==0"  :name="item.url||0" :key="item.url" v-ripple>
                 <i :class="getIcon(item.icon)" style="width:12px;text-align: center"></i>

@@ -110,10 +110,36 @@ export const appRouter = [
         children: [
             { path: 'index', title: '任务单列表', name: 'task_index', component: resolve => { require(['@/views/lib/task.vue'], resolve); } }
         ]
-    },
+    },  
+    {
+        path: '/test',
+        name: 'test',
+        title: '任务单列表',
+        component: Main,
+        children: [
+            { path: 'index', title: '委托检测协议', name: 'test_protocol', component: resolve => { require(['@/views/lib/testprotocol.vue'], resolve); } }
+        ]
+    },  
+    {
+        path: '/tj',
+        name: 'tj',
+        title: '产量统计',
+        component: Main,
+        children: [
+            { path: 'cltj', title: '产量统计', name: 'tj_cltj', component: resolve => { require(['@/views/lib/tj/cltj.vue'], resolve); } }
+        ]
+    }
+    // {
+    //     path: '/stat',
+    //     name: 'stat',
+    //     title: '任务单列表',
+    //     component: Main,
+    //     children: [
+    //         { path: 'index', title: '任务单列表', name: 'task_index', component: resolve => { require(['@/views/lib/task.vue'], resolve); } }
+    //     ]
+    // },
+
 ];
-
-
 // 所有上面定义的路由都要写在下面的routers里
 export const routers = [
     loginRouter,

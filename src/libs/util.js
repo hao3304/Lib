@@ -6,7 +6,8 @@ import packjson from '../../package.json';
 let util = {
 };
 util.title = function (title) {
-    title = title || '实验室管理系统';
+    // title = title || '实验室管理系统';
+    title = title|| '度量教育2.0'
     window.document.title = title;
 };
 
@@ -51,7 +52,6 @@ util.getRouterObjByName = function (routers, name) {
     if (!name || !routers || !routers.length) {
         return null;
     }
-    // debugger;
     let routerObj = null;
     for (let item of routers) {
         if (item.name === name) {
