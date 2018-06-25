@@ -126,7 +126,7 @@ export const appRouter = [
         title: '自定义任务单',
         component: Main,
         children: [
-            { path: 'task', title: '委托检测协议', name: 'customize_task', component: resolve => { require(['@/views/lib/customizeTask.vue'], resolve); } }
+            { path: 'task', title: '自定义任务单', name: 'customize_task', component: resolve => { require(['@/views/lib/customizeTask.vue'], resolve); } }
         ]
     }, 
     {

@@ -1,15 +1,24 @@
 <template>
     <div class="test-protocol">
-        <div><Button type="primary" size="small">返回</Button></div>
-        <div class="title">委托检测协议(变压器) 
-            <div class="title-btn">
-                <Button type="primary" size="small">保存</Button>
-                <Button type="success" size="small">派发</Button>
-                <Button type="disabled" size="small">查看委托单</Button>
+        <div class="y-toolbar" style="padding-bottom: 15px;">
+            <div class="y-query">
+                <span class="y-title">
+                    委托检测协议(变压器)
+</span>
+            </div>
+            <div class="y-query-btn" style="width: 300px;">
+                <Button type="primary">保存</Button>
+                <Button type="success" >派发</Button>
+                <Button type="disabled">查看委托单</Button>
+            </div>
+            <div class="y-add-btn" >
+
+                <Button type="info" >返回</Button>
             </div>
         </div>
-        <div class="protocol">
-            <Form  :model="protocol" :label-width="100"> 
+
+        <Card class="protocol">
+            <Form  :model="protocol" :label-width="120">
                 <Row>
                     <Col span="8">
                         <FormItem label="合同编号">
@@ -97,8 +106,9 @@
                     </Col>
                 </Row>
              </Form>
-        </div>
-        <div class="desc">
+        </Card>
+
+        <card class="desc">
             <div class="tabl">
                 <Table :loading="loading" :columns="columns" :data="data"></Table>
             </div>
@@ -121,7 +131,7 @@
 
                 </Form>
             </div>
-        </div>
+        </card>
         <div class="end">
             <div class="money">
                 <p>检测费用合计:</p>
@@ -230,6 +240,7 @@ export default {
         }
         .desc{
             height:300px;
+            margin-top: 10px;
             background-color:#fff;
             font-size:0;
             letter-spacing: -3px;
@@ -251,6 +262,7 @@ export default {
         .end{
             background-color:#fff;
             font-size:0px;
+            margin-top: 10px;
             letter-spacing: -3px;
             .money,.limitdate{
                 display: inline-block;

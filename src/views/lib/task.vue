@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="y-toolbar">
+        <div class="y-toolbar" style="padding-bottom: 15px;">
             <div class="y-query">
                 <Form :label-width="90" :model="query" ref="queryForm"  inline>
 
