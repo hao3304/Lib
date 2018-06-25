@@ -217,10 +217,11 @@ export default {
                 margin-right:10px;
                 vertical-align: text-bottom;
             }
+            .title-btn{
+                float:right;
+            }
         }
-        .title-btn{
-            float:right;
-        }
+       
         .protocol{
             background-color:#fff;
             .ivu-form-item{
