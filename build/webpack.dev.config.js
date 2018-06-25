@@ -5,15 +5,16 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const merge = require('webpack-merge');
 const webpackBaseConfig = require('./webpack.base.config.js');
 const fs = require('fs');
-const package = require('../package.json');
+// const package = require('../package.json');
 
-fs.open('./build/env.js', 'w', function(err, fd) {
+fs.open('./build/env.js', 'w', function (err, fd) {
     const buf = 'export default "development";';
-    fs.write(fd, buf, 0, buf.length, 0, function(err, written, buffer) {});
+    fs.write(fd, buf, 0, buf.length, 0, function (err, written, buffer) {});
 });
 
 module.exports = merge(webpackBaseConfig, {
-    devtool: '#eval-source-map',
+    // devtool: '#eval-source-map',
+    devtool: '#source-map',
     output: {
         publicPath: '/dist/',
         filename: '[name].js',
